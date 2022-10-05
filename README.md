@@ -1,6 +1,7 @@
 # train_face_recognition_model_VGG16
 
 ![alt text](https://github.com/tomer-erez/train_face_recognition_model_VGG16/blob/master/tomerfax.jpg)
+
 training a face recognition model based on google's vgg16
 
 download this repo
