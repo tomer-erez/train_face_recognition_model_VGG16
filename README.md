@@ -11,6 +11,18 @@ download this repo
 pip install -r requirements.txt
 ```
 
+important issue: go to site-packages/keras_vggface/models.py
+
+change 
+```
+from keras.engine.topology import get_source_inputs
+```
+to
+```
+from keras.utils.layer_utils import get_source_inputs
+
+```
+
 ## provide dataset
 
 the directory hierarchy:
